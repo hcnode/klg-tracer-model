@@ -3,7 +3,7 @@
  */
 export interface ITracer {
   userId: string
-  requestId: string
+  traceId: string
   name: string
   timestamp: number
   duration: number
