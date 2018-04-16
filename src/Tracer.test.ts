@@ -2,7 +2,7 @@ import * as mongoose from 'mongoose'
 import {TestHelper} from './TestHelper'
 import {TracerCRUD} from './TracerCRUD'
 
-describe('LogCRUD test', async function () {
+describe('TracerCRUD test', async function () {
   let Tracer: TracerCRUD
 
   const tracer = {
