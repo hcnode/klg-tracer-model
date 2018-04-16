@@ -1,7 +1,7 @@
 {
-  "name": "klg-log-model",
-  "version": "1.0.1",
-  "description": "klg log model",
+  "name": "klg-tracer-model",
+  "version": "1.0.0",
+  "description": "klg tracer model",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/kalengo/klg-log-model"
+    "url": "https://github.com/kaolalicai/klg-tracer-model"
   },
   "keywords": [
     "klg",
