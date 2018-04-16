@@ -7,7 +7,7 @@ describe('TracerCRUD test', async function () {
 
   const tracer = {
     userId: 'uu',
-    requestId: '122342343',
+    traceId: '122342343',
     name: 'in',
     tags: {
       url: 'hao123',
@@ -28,7 +28,7 @@ describe('TracerCRUD test', async function () {
     console.log('tracers', tracers)
     expect(tracers.length).toEqual(1)
     expect(tracers[0].userId).toEqual(tracer.userId)
-    expect(tracers[0].requestId).toEqual(tracer.requestId)
+    expect(tracers[0].traceId).toEqual(tracer.traceId)
   })
 
   it(' patch save ', async () => {
